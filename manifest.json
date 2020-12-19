@@ -1,0 +1,15 @@
+{
+    "name": "GPA Calculator- Anna University",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Calculates your GPA by auto-fetching details from your marksheet!",
+    "icons": {
+        "16": "logo16.png",
+        "48": "logo48.png",
+        "128": "logo128.png"
+    },
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": ["https://acoe.annauniv.edu/"]
+}
