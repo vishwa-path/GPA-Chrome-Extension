@@ -1,0 +1,15 @@
+{
+    "name": "GPA Calculator - Anna University (CEG/MIT)",
+    "version": "1.1",
+    "manifest_version": 2,
+    "description": "Calculates your GPA by auto-fetching details from your marksheet!",
+    "icons": {
+        "16": "logos/logo16.png",
+        "48": "logos/logo48.png",
+        "128": "logos/logo128.png"
+    },
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": ["https://acoe.annauniv.edu/"]
+}
