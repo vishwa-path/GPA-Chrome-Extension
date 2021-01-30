@@ -93,7 +93,7 @@ function DOMtoString(document_root) {
         'IT7511':2,'IT7512':2,'IT7513':1,'IT7711':2,'IT7712':2,
     };
     var grade_to_gpa={
-        '>O':10,'A+':9,'>A':8,'B+':7,'>B':6,'RA':0
+        '>O':10,'A+':9,'>A':8,'B+':7,'>B':6,'RA':0,'SA':0
     };
     var flag=0,gpa;
     headings=count(final,'</th>');
